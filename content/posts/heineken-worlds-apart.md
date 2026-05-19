@@ -10,6 +10,8 @@ draft: false
 
 Two people meet. They don't know each other. They're given a brief introduction, then asked to assemble flat-pack furniture together — the kind of low-stakes collaborative task that's slightly annoying and requires enough communication to produce familiarity.
 
+{{< youtube 8wYXw4K0A3g >}}
+
 By the time they've finished, they've negotiated, laughed a little, figured each other out. They like each other.
 
 Then Heineken shows them video clips of each other's stated views on a divisive issue. One is a climate activist; the other is a skeptic. One is a feminist; the other holds views that feminists would find objectionable. One is gay; the other is opposed to homosexuality.

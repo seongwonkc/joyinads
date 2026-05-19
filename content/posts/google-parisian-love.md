@@ -10,6 +10,8 @@ draft: false
 
 When I think of a tech commercial, people crying doesn't usually come to mind. Instead, I think of ads showing fast cars in remote locations, people bonding over beers, or celebrities talking about the latest 5G speeds.
 
+{{< youtube nnsSUqgkDwU >}}
+
 In 2010, a tech company did something different. During the Super Bowl, a screen cleared and the audience saw a simple Google search bar appear. No actors. No dialogue. No product shots. Just text being typed out.
 
 "Study abroad Paris."  

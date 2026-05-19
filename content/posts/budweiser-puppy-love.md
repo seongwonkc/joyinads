@@ -10,6 +10,8 @@ draft: false
 
 Budweiser's 2014 Super Bowl ad contained no party scenes, no sweating glass in slow motion, no friends clinking bottles on a rooftop. What it contained was a golden retriever puppy who kept escaping from a neighboring farm to visit a Clydesdale horse. He gets adopted away. The Clydesdale runs after the car. The puppy comes home.
 
+{{< youtube uQB7QRyF4p4 >}}
+
 Nobody thought about beer.
 
 The ad was watched over 50 million times in its first week. It was voted the most popular Super Bowl commercial of 2014. And it contained almost no product messaging. This raises a reasonable question: how does a beer brand win the Super Bowl with a puppy and a horse?

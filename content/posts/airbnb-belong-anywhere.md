@@ -10,6 +10,8 @@ draft: false
 
 There's a feeling you get in a foreign city when someone treats you like a local. A neighbor nods. A host leaves a handwritten note about where to get coffee. You sit at a kitchen table in Lisbon eating bread someone baked that morning, and for a moment, you don't feel like a visitor.
 
+{{< youtube BpAdyFdE3-c >}}
+
 Hotels are good at many things. This isn't one of them. The lobby is built for transactions. The room is built for isolation. The minibar is built to make you feel slightly guilty. Nobody at a Marriott leaves a note about the neighborhood.
 
 Airbnb's "Belong Anywhere" campaign — launched in 2014 — made this observation the entire product positioning. Not "cheaper than hotels." Not "more authentic than hotels." Just: when you stay here, you belong somewhere.

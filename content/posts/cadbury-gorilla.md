@@ -10,6 +10,8 @@ draft: false
 
 In 2007, Cadbury aired a television commercial with the following content: a gorilla, seated at a drum kit, playing Phil Collins's "In the Air Tonight." The gorilla plays it well. With feeling, even. The famous drum fill arrives — one of the most anticipated moments in rock history — and the gorilla commits to it completely.
 
+{{< youtube TnzFRV1LwIo >}}
+
 Then a brief pack shot. Then nothing.
 
 No narrative. No product claim. No explanation of what a gorilla has to do with chocolate. Not even a particularly strong argument that this was an advertisement rather than a fever dream.

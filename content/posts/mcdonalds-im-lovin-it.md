@@ -10,6 +10,8 @@ draft: false
 
 Ba da ba ba baaaa.
 
+{{< youtube -IHcp8Pl_X4 >}}
+
 You didn't have to think. You just knew. The sound was in your head before you finished reading it.
 
 That's not a coincidence. That's twenty-plus years of psychological conditioning, executed at a scale that makes most brand work look casual. McDonald's "I'm Lovin' It" launched in 2003 with Justin Timberlake on the hook — which helped — but the five-note mnemonic that followed became something no pop song ever does: a sonic reflex. Involuntary. Cross-cultural. Essentially permanent.

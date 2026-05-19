@@ -10,6 +10,8 @@ draft: false
 
 Most films about sadness let sadness be the problem. *Inside Out* does something stranger and considerably more honest: it makes Joy the protagonist — the bright, relentlessly energetic, optimistic-to-the-point-of-recklessness emotion at the center of an eleven-year-old's inner life — and then it removes her.
 
+{{< youtube yRUAzGQ3nSY >}}
+
 For most of the film, Riley operates without Joy. What follows isn't a clean emotional collapse. It's something more psychologically accurate: numbness. Disconnection. The slow withdrawal from the people she loves. And the film's argument — quietly, through a children's adventure story — is that Joy alone is not only insufficient but actively dangerous when it crowds out everything else.
 
 Pixar made a piece of emotional education and wrapped it in a marketing campaign that generated $857 million at the global box office. Then they made a sequel that opened to $154 million in its first weekend. The product worked because the psychology was real.

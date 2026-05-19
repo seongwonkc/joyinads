@@ -10,6 +10,8 @@ draft: false
 
 Imagine you're five years old again. In front of you is a pile of colorful plastic bricks—red, blue, yellow, green. There's no instruction manual, no "right" way to build. Just you, the bricks, and your imagination. You pick up a blue piece, snap it onto a red one, and suddenly you're not in your living room anymore. You're building a spaceship. No—a castle. Actually, it's a spaceship-castle hybrid that can fly through time. And for the next two hours, nothing else matters.
 
+{{< youtube zCXMx7RcZ5I >}}
+
 This is the heart of Lego's "Rebuild the World" campaign, launched in 2019. The ads don't focus on specific Lego sets or price points. Instead, they celebrate something deeper: the pure, immersive joy of creative play. We see children (and adults) lost in the act of building, their faces lit up with concentration and delight. The message is simple but profound: with Lego, you can rebuild anything—including yourself.
 
 But what makes this campaign so effective? Why does watching a child build with Lego bricks evoke such powerful emotions—nostalgia, warmth, and a longing to return to that state of pure creative flow? The answer lies in psychology, specifically in flow theory and play theory—two concepts that reveal why Lego is more than just a toy. It's a gateway to one of the most joyful states the human mind can experience.

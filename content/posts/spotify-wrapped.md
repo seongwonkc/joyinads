@@ -10,6 +10,8 @@ draft: false
 
 Every November, something unusual happens on social media. Millions of people start sharing Spotify advertising — voluntarily, enthusiastically, without compensation, sometimes before their friends have seen it, with a competitive edge that suggests they've been waiting.
 
+{{< youtube PUPcbIa0gnY >}}
+
 Nobody shares McDonald's demographic data. Nobody posts their Amazon purchase history as a statement of identity. But Spotify Wrapped has, since its current form launched in 2016, become an annual cultural event rather than a promotional campaign — and the difference comes down to one structural choice that most brands never manage to make.
 
 Spotify takes your data and gives it back to you. Not as a sales tool. As a self-portrait.

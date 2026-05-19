@@ -10,6 +10,8 @@ draft: false
 
 Ask a ten-year-old girl to run "like a girl." Watch what happens. Arms pumping. Face serious. Full effort.
 
+{{< youtube XjJQBjWYDTs >}}
+
 Now ask a grown woman to do the same thing.
 
 The difference is uncomfortable to watch. Somewhere between childhood and adulthood, the phrase had been absorbed as an insult — and the body had learned to perform the insult back. Always set up exactly this experiment on camera in 2014, and the results became one of the most watched ads of the decade.

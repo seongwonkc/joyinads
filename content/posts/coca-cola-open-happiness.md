@@ -10,6 +10,8 @@ draft: false
 
 Imagine this: a TV screen flickers on. A polar bear family slides across snowy icebergs, giggling as they open ice-cold bottles of Coca-Cola under the Northern Lights. In another scene, a teenager in Seoul spots his own name on a Coke bottle—suddenly, the drink feels like it was made just for him. Fast-forward to the Olympic Games: athletes raise a Coke in victory, fans clink bottles in the stands, and the whole stadium seems to share in the same emotional toast.
 
+{{< youtube lqT_dPApj9U >}}
+
 If you notice a pattern here, you're not alone. Coca-Cola rarely talks about taste or calories in their ads. Instead, they sell something far more powerful: *joy itself.* And through decades of campaigns—"Open Happiness," "Share a Coke," the Polar Bears, the Olympic sponsorships—Coca-Cola has managed to make its brand feel less like a drink and more like an emotion.
 
 ## The Psychology of Joy in Advertising

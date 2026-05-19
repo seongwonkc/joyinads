@@ -8,6 +8,8 @@ draft: false
 
 In today's marketing, the pace never slows. Brands are always searching for new and innovative ways to engage people, to grab their attention. And while there are many marketing tools available, the most powerful and accessible one may well be joy. Not the loud, silly kind familiar from typical commercial experiences, but the gentle kind people find as an aftereffect of recognizing something true about themselves. Dove's "Real Beauty Sketches" campaign showcases exactly that power.
 
+{{< youtube XpaOjMXyJGk >}}
+
 ## The Importance of Joy in Advertising
 
 Studies from psychology show that happiness is linked to positive affect—a state that makes people more open-minded, trusting, and effective at processing information. That is why content that generates positive emotion is remembered more clearly and tends to produce more favorable impressions of the brand.

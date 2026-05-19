@@ -8,6 +8,8 @@ draft: false
 
 One of the most memorable moments of Procter & Gamble's "Thank You, Mom" Olympic campaign is one that does not feature an athlete crossing the finish line or standing on a podium. We don't see a person in their moment of glory and victory. Instead, we see someone's mom.
 
+{{< youtube BnBvlz8EaZ0 >}}
+
 We see her sitting there, waiting with bated breath as she watches her adult child being the best person they can be. Her smile, her hands clutching each other, her eyes so focused.
 
 This is where the emotion is triggered. Some of the audience tears up instantly, before they fully understand why. Some feel the need to send this advertisement to their parents or other family members despite not being sports or Olympics fans. This is more than just a clever edit. It is something more psychological.
