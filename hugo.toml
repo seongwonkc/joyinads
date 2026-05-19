@@ -18,7 +18,7 @@ buildFuture = false
 [menu]
   [[menu.main]]
     name = "Home"
-    url = "/"
+    url = "https://joyinads.netlify.app/"
     weight = 1
   [[menu.main]]
     name = "Archive"
