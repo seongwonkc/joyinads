@@ -1,0 +1,30 @@
+baseURL = "https://seongwonkc.github.io/joyinads/"
+languageCode = "en-us"
+title = "The Power of Joy in Marketing & Advertising"
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+
+[params]
+  description = "Psychology, emotion, and what makes great advertising work."
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  hideMeta = false
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Archive"
+    url = "/archives/"
+    weight = 2
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
