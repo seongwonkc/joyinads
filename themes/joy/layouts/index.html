@@ -1,0 +1,86 @@
+{{ define "bodyclass" }}home{{ end }}
+{{ define "main" }}
+{{- $posts := (where site.RegularPages "Section" "posts").ByDate.Reverse -}}
+
+<section class="masthead">
+  <div class="wrap mast-inner">
+  <div class="mast-copy">
+    <p class="eyebrow">An essay series · {{ len $posts }} campaigns</p>
+    <h1 class="mast-title">
+      <span class="mast-line">The Power</span>
+      <span class="mast-line">of <em class="joy">Joy<svg class="burst" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><g stroke="currentColor" stroke-width="5" stroke-linecap="round" fill="none"><path d="M60 6v18M60 96v18M6 60h18M96 60h18M21.8 21.8l12.7 12.7M85.5 85.5l12.7 12.7M21.8 98.2l12.7-12.7M85.5 34.5l12.7-12.7"/></g></svg></em></span>
+      <span class="mast-sub">in Marketing &amp; Advertising</span>
+    </h1>
+    <p class="mast-lede">Close readings of famous ads and the feelings they were built to produce. Each essay takes one campaign, names the psychology that made it land, and cites the research behind it.</p>
+    <p class="mast-actions"><a class="btn" href="#essays">Browse the essays</a><a class="btn btn-quiet" href="#index">Find a feeling</a></p>
+  </div>
+  {{- $picks := slice }}
+  {{- range site.Params.mastheadPicks }}{{ with site.GetPage (printf "/posts/%s" .) }}{{ $picks = $picks | append . }}{{ end }}{{ end }}
+  {{- with $picks }}
+  <div class="mast-art" aria-label="Featured campaigns">
+    {{- range $i, $p := . }}
+    {{- $d := partial "post-data.html" $p }}
+    <a class="snap snap-{{ add $i 1 }} hue-{{ $d.hue }}" href="{{ $p.RelPermalink }}">
+      <span class="media">{{ partial "thumb.html" (dict "page" $p "data" $d "eager" true) }}</span>
+      <span class="snap-tag"><span class="dot" aria-hidden="true"></span>{{ $d.brand }}<em>{{ $d.mechanism }}</em></span>
+    </a>
+    {{- end }}
+  </div>
+  {{- end }}
+  </div>
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      {{- range seq 2 }}{{ range $posts }}{{ $d := partial "post-data.html" . }}<span>{{ $d.brand | default .Title }}</span><i></i>{{ end }}{{ end -}}
+    </div>
+  </div>
+</section>
+
+{{- with index $posts 0 }}
+{{- $d := partial "post-data.html" . }}
+<section class="feature wrap hue-{{ $d.hue }}" aria-labelledby="feature-title">
+  <a class="feature-media media" href="{{ .RelPermalink }}" tabindex="-1" aria-hidden="true">{{ partial "thumb.html" (dict "page" . "data" $d "eager" true) }}</a>
+  <div class="feature-body">
+    <p class="label">Latest essay</p>
+    {{ partial "kicker.html" $d }}
+    <h2 id="feature-title" class="feature-title"><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h2>
+    {{ with .Description }}<p class="feature-dek">{{ . | markdownify }}</p>{{ end }}
+    <p class="card-meta">{{ with $d.mechanism }}<span class="chip">{{ . }}</span>{{ end }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time><span>{{ .ReadingTime }} min read</span></p>
+    <a class="btn" href="{{ .RelPermalink }}">Read the essay<span aria-hidden="true"> →</span></a>
+  </div>
+</section>
+{{- end }}
+
+<section id="essays" class="collection wrap" aria-labelledby="essays-title">
+  <header class="section-head">
+    <h2 id="essays-title">The collection</h2>
+    <p>Newest first. Every essay pairs a campaign with the mechanism behind it.</p>
+  </header>
+  <div class="grid">
+    {{- range after 1 $posts }}{{ partial "card.html" . }}{{ end }}
+  </div>
+</section>
+
+<section id="index" class="feelings" aria-labelledby="index-title">
+  <div class="wrap">
+    <header class="section-head">
+      <h2 id="index-title">Index of mechanisms</h2>
+      <p>Looking for a specific kind of joy? Start from the psychology.</p>
+    </header>
+    <ol class="index-list">
+      {{- $entries := slice }}
+      {{- range $posts }}{{ $d := partial "post-data.html" . }}{{ if $d.mechanism }}{{ $entries = $entries | append (dict "m" $d.mechanism "brand" $d.brand "hue" $d.hue "url" .RelPermalink "title" .Title) }}{{ end }}{{ end }}
+      {{- range sort $entries "m" }}
+      <li class="hue-{{ .hue }}"><a href="{{ .url }}" title="{{ .title }}"><span class="dot" aria-hidden="true"></span><span class="m">{{ .m }}</span><span class="leader" aria-hidden="true"></span><span class="b">{{ .brand }}</span></a></li>
+      {{- end }}
+    </ol>
+  </div>
+</section>
+
+<section class="about wrap" aria-labelledby="about-title">
+  <h2 id="about-title" class="about-title">Why joy?</h2>
+  <div class="about-body">
+    <p>Joy is the emotion advertising promises most often and explains least. These essays slow down a single campaign at a time and ask what actually produced the feeling: a conditioned cue, a moment of surprise, a story that pulled the viewer in, the pleasure of being seen.</p>
+    <p>Each one ends with the research it draws on, so the argument can be checked. The <a href="{{ "/archives/" | relURL }}">archive</a> lists all of them by date and <a href="{{ "/tags/" | relURL }}">topics</a> groups them by theme.</p>
+  </div>
+</section>
+{{ end }}

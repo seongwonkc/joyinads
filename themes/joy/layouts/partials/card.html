@@ -1,0 +1,10 @@
+{{- $d := partial "post-data.html" . -}}
+<article class="card hue-{{ $d.hue }}">
+  <a class="card-link" href="{{ .RelPermalink }}">
+    <div class="media">{{ partial "thumb.html" (dict "page" . "data" $d) }}</div>
+    {{ partial "kicker.html" $d }}
+    <h3 class="card-title">{{ .Title | markdownify }}</h3>
+    {{ with .Description }}<p class="card-dek">{{ . | markdownify }}</p>{{ end }}
+    <p class="card-meta">{{ with $d.mechanism }}<span class="chip">{{ . }}</span>{{ end }}<span>{{ .ReadingTime }} min read</span></p>
+  </a>
+</article>

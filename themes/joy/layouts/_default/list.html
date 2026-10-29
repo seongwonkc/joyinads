@@ -1,0 +1,12 @@
+{{ define "bodyclass" }}listing{{ end }}
+{{ define "main" }}
+{{- $pages := where .Pages "Section" "posts" }}
+<header class="page-head wrap">
+  <p class="eyebrow">{{ if eq .Kind "term" }}Topic{{ else }}Essays{{ end }}</p>
+  <h1 class="page-title">{{ .Title }}</h1>
+  <p class="page-count">{{ len $pages }} {{ cond (eq (len $pages) 1) "essay" "essays" }}{{ if eq .Kind "term" }} · <a href="{{ "/tags/" | relURL }}">all topics</a>{{ end }}</p>
+</header>
+<div class="grid wrap list-grid">
+  {{- range $pages.ByDate.Reverse }}{{ partial "card.html" . }}{{ end }}
+</div>
+{{ end }}

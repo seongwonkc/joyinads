@@ -1,0 +1,28 @@
+{{ define "bodyclass" }}listing{{ end }}
+{{ define "main" }}
+{{- $posts := where site.RegularPages "Section" "posts" }}
+<header class="page-head wrap">
+  <p class="eyebrow">Archive</p>
+  <h1 class="page-title">Every essay, by date</h1>
+  <p class="page-count">{{ len $posts }} essays</p>
+</header>
+<div class="wrap archive">
+  {{- range $posts.GroupByDate "2006" }}
+  <section class="archive-year" aria-labelledby="y{{ .Key }}">
+    <h2 id="y{{ .Key }}" class="archive-key">{{ .Key }}</h2>
+    <ol class="archive-list">
+      {{- range .Pages }}
+      {{- $d := partial "post-data.html" . }}
+      <li class="hue-{{ $d.hue }}">
+        <a href="{{ .RelPermalink }}">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2" }}</time>
+          <span class="archive-title">{{ .Title | markdownify }}</span>
+          <span class="archive-brand"><span class="dot" aria-hidden="true"></span>{{ $d.brand }}</span>
+        </a>
+      </li>
+      {{- end }}
+    </ol>
+  </section>
+  {{- end }}
+</div>
+{{ end }}

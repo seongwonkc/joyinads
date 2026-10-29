@@ -1,0 +1,6 @@
+{{- /* Campaign metadata for an essay (data/campaigns.yaml), plus the YouTube id its body embeds, if any. */ -}}
+{{- $d := dict -}}
+{{- with .File -}}{{- with index site.Data.campaigns .ContentBaseName -}}{{- $d = . -}}{{- end -}}{{- end -}}
+{{- $yt := "" -}}
+{{- with findRESubmatch `\{\{<\s*youtube\s+(?:id=["']?)?([A-Za-z0-9_-]{11})` .RawContent 1 -}}{{- $yt = index (index . 0) 1 -}}{{- end -}}
+{{- return merge (dict "brand" "" "campaign" "" "year" "" "mechanism" "" "hue" "tangerine" "thumb" "maxres") $d (dict "yt" $yt) -}}

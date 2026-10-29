@@ -1,30 +1,40 @@
 baseURL = "https://joyinads.netlify.app/"
 languageCode = "en-us"
 title = "The Power of Joy in Marketing & Advertising"
-theme = "PaperMod"
+theme = "joy"
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 
+[taxonomies]
+  tag = "tags"
+
 [params]
   description = "Psychology, emotion, and what makes great advertising work."
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = false
-  hideMeta = false
+  # Three essays pictured in the homepage masthead (content file names).
+  mastheadPicks = ["sony-bravia-balls", "lego-rebuild-the-world", "old-spice-man-your-man"]
+
+[related]
+  includeNewer = true
+  threshold = 0
+  toLower = true
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+
+[markup.goldmark.renderer]
+  unsafe = false
 
 [menu]
   [[menu.main]]
-    name = "Home"
-    url = "/"
+    name = "Essays"
+    url = "/#essays"
     weight = 1
   [[menu.main]]
     name = "Archive"
     url = "/archives/"
     weight = 2
   [[menu.main]]
-    name = "Tags"
+    name = "Topics"
     url = "/tags/"
     weight = 3

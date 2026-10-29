@@ -1,0 +1,15 @@
+{{- /* Click-to-play YouTube embed: shows the thumbnail and loads the player (youtube-nocookie) only on click. */ -}}
+{{- $id := "" -}}
+{{- if .IsNamedParams }}{{ $id = .Get "id" }}{{ else }}{{ $id = .Get 0 }}{{ end -}}
+{{- $title := .Get "title" | default (printf "Video: %s" .Page.Title) -}}
+{{- if not .IsNamedParams }}{{ $title = printf "Video: %s" .Page.Title }}{{ end -}}
+<figure class="video">
+  <button class="video-facade" type="button" data-yt="{{ $id }}" data-title="{{ $title }}" aria-label="Play the ad">
+    {{- $hq := printf "https://i.ytimg.com/vi/%s/hqdefault.jpg" $id }}
+    {{- $d := partial "post-data.html" .Page }}
+    <img src="{{ if and (eq $d.yt $id) (eq $d.thumb "hq") }}{{ $hq }}{{ else }}https://i.ytimg.com/vi/{{ $id }}/maxresdefault.jpg{{ end }}" data-fallback="{{ $hq }}" alt="" width="1280" height="720" loading="lazy" decoding="async">
+    <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg></span>
+    <span class="video-label" aria-hidden="true">Watch the ad</span>
+  </button>
+  <figcaption><a href="https://www.youtube.com/watch?v={{ $id }}" rel="noopener" target="_blank">Watch on YouTube</a></figcaption>
+</figure>

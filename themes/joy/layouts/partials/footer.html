@@ -1,0 +1,15 @@
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      {{ partial "logo.html" . }}
+      <p><strong>{{ site.Title }}</strong>{{ site.Params.description }}</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="{{ "/#essays" | relURL }}">Essays</a>
+      <a href="{{ "/archives/" | relURL }}">Archive</a>
+      <a href="{{ "/tags/" | relURL }}">Topics</a>
+      <a href="{{ "/index.xml" | relURL }}">RSS</a>
+    </nav>
+    <p class="footer-fine">© {{ now.Year }} {{ site.Title }}. Campaign videos are embedded from YouTube for commentary and belong to their owners.</p>
+  </div>
+</footer>

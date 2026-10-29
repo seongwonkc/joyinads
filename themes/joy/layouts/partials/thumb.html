@@ -1,0 +1,7 @@
+{{- /* ctx: dict "page" . "data" $d "eager" bool. The type tile sits under the image and shows if the video thumbnail is gone. */ -}}
+{{- $d := .data -}}
+<div class="thumb-type" aria-hidden="true"><span>{{ $d.campaign | default .page.Title }}</span></div>
+{{- with $d.yt }}
+{{- $hq := printf "https://i.ytimg.com/vi/%s/hqdefault.jpg" . }}
+<img class="thumb-img" src="{{ if eq $d.thumb "hq" }}{{ $hq }}{{ else }}https://i.ytimg.com/vi/{{ . }}/maxresdefault.jpg{{ end }}" data-fallback="{{ $hq }}" alt="" width="1280" height="720" decoding="async"{{ if $.eager }} fetchpriority="high"{{ else }} loading="lazy"{{ end }}>
+{{- end }}

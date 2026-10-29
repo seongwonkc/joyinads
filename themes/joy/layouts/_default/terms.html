@@ -1,0 +1,20 @@
+{{ define "bodyclass" }}listing{{ end }}
+{{ define "main" }}
+<header class="page-head wrap">
+  <p class="eyebrow">Browse</p>
+  <h1 class="page-title">Topics</h1>
+  <p class="page-count">Brands, theories, and themes across {{ len (where site.RegularPages "Section" "posts") }} essays.</p>
+</header>
+<div class="wrap">
+  <ul class="topic-cloud">
+    {{- $total := len (where site.RegularPages "Section" "posts") }}
+    {{- range .Data.Terms.Alphabetical }}
+    {{- $n := .Count }}
+    {{- /* A tag on every essay (e.g. "campaign analysis") doesn't help anyone browse. */}}
+    {{- if lt $n $total }}
+    <li><a class="topic{{ if ge $n 3 }} topic-lg{{ else if ge $n 2 }} topic-md{{ end }}" href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}<span class="topic-n">{{ $n }}</span></a></li>
+    {{- end }}
+    {{- end }}
+  </ul>
+</div>
+{{ end }}

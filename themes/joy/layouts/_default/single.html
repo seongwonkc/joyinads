@@ -1,0 +1,67 @@
+{{ define "bodyclass" }}{{ if eq .Section "posts" }}essay-page{{ else }}page{{ end }}{{ end }}
+{{ define "main" }}
+{{- if eq .Section "posts" }}
+{{- $d := partial "post-data.html" . }}
+<div class="progress hue-{{ $d.hue }}" aria-hidden="true"><span data-progress></span></div>
+<article class="essay hue-{{ $d.hue }}">
+  <header class="essay-head wrap">
+    <a class="back" href="{{ "/#essays" | relURL }}"><span aria-hidden="true">←</span> All essays</a>
+    {{ partial "kicker.html" $d }}
+    <h1 class="essay-title">{{ .Title | markdownify }}</h1>
+    {{ with .Description }}<p class="dek">{{ . | markdownify }}</p>{{ end }}
+    <p class="essay-meta">
+      {{ with $d.mechanism }}<span class="chip">{{ . }}</span>{{ end }}
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      <span>{{ .ReadingTime }} min read</span>
+    </p>
+  </header>
+
+  <div class="prose">
+    {{ .Content }}
+  </div>
+
+  <footer class="essay-foot">
+    {{- with .GetTerms "tags" }}
+    <div class="tags">
+      <span class="label">Filed under</span>
+      <ul>{{ $total := len (where site.RegularPages "Section" "posts") }}{{ range . }}{{ if lt (len .Pages) $total }}<li><a class="chip chip-link" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>{{ end }}{{ end }}</ul>
+    </div>
+    {{- end }}
+
+    {{- $all := (where site.RegularPages "Section" "posts").ByDate.Reverse }}
+    {{- $newer := false }}{{ $older := false }}{{ $last := false }}{{ $found := false }}
+    {{- range $all }}
+      {{- if $found }}{{ if not $older }}{{ $older = . }}{{ end }}
+      {{- else if eq .RelPermalink $.RelPermalink }}{{ $found = true }}{{ $newer = $last }}
+      {{- else }}{{ $last = . }}{{ end }}
+    {{- end }}
+    {{- if or $newer $older }}
+    <nav class="pager" aria-label="More essays">
+      {{- with $older }}
+      <a class="pager-link prev" href="{{ .RelPermalink }}"><span class="label"><span aria-hidden="true">←</span> Previous essay</span><span class="pager-title">{{ .Title | markdownify }}</span></a>
+      {{- end }}
+      {{- with $newer }}
+      <a class="pager-link next" href="{{ .RelPermalink }}"><span class="label">Next essay <span aria-hidden="true">→</span></span><span class="pager-title">{{ .Title | markdownify }}</span></a>
+      {{- end }}
+    </nav>
+    {{- end }}
+  </footer>
+</article>
+
+{{- $related := where (site.RegularPages.Related .) "Section" "posts" }}
+{{- if lt (len $related) 3 }}{{ $related = $related | append (where (where $all "Section" "posts") "RelPermalink" "ne" .RelPermalink) | uniq }}{{ end }}
+<section class="more wrap" aria-labelledby="more-title">
+  <header class="section-head">
+    <h2 id="more-title">Keep reading</h2>
+  </header>
+  <div class="grid">
+    {{- range first 3 $related }}{{ partial "card.html" . }}{{ end }}
+  </div>
+</section>
+{{- else }}
+<article class="page-body wrap-narrow">
+  <h1 class="page-title">{{ .Title }}</h1>
+  <div class="prose">{{ .Content }}</div>
+</article>
+{{- end }}
+{{ end }}

@@ -1,0 +1,26 @@
+# Per-essay metadata used by the theme (keyed by content file name).
+# brand · campaign · year the campaign launched · the mechanism the essay is about · card color
+# thumb: "hq" marks videos whose YouTube thumbnail has no HD version.
+airbnb-belong-anywhere:    { brand: "Airbnb",              campaign: "Belong Anywhere",        year: 2014, mechanism: "Belonging",               hue: "sky" }
+always-like-a-girl:        { brand: "Always",              campaign: "#LikeAGirl",             year: 2014, mechanism: "Reframing",               hue: "rose" }
+apple-shot-on-iphone:      { brand: "Apple",               campaign: "Shot on iPhone",         year: 2015, mechanism: "Participation",           hue: "violet" }
+budweiser-puppy-love:      { brand: "Budweiser",           campaign: "Puppy Love",             year: 2014, mechanism: "Affect heuristic",        hue: "tangerine" }
+cadbury-gorilla:           { brand: "Cadbury",             campaign: "Gorilla",                year: 2007, mechanism: "Absurdity",               hue: "violet", thumb: "hq" }
+coca-cola-open-happiness:  { brand: "Coca-Cola",           campaign: "Open Happiness",         year: 2009, mechanism: "Conditioning",            hue: "tangerine" }
+dove-real-beauty-sketches: { brand: "Dove",                campaign: "Real Beauty Sketches",   year: 2013, mechanism: "Self-concept",            hue: "sky" }
+dumb-ways-to-die:          { brand: "Metro Trains",        campaign: "Dumb Ways to Die",       year: 2012, mechanism: "Disarming humor",         hue: "sun", thumb: "hq" }
+evian-roller-babies:       { brand: "Evian",               campaign: "Roller Babies",          year: 2009, mechanism: "Baby schema",             hue: "sky", thumb: "hq" }
+google-parisian-love:      { brand: "Google",              campaign: "Parisian Love",          year: 2010, mechanism: "Narrative transportation", hue: "mint" }
+guinness-surfer:           { brand: "Guinness",            campaign: "Surfer",                 year: 1999, mechanism: "Anticipation",            hue: "mint", thumb: "hq" }
+heineken-worlds-apart:     { brand: "Heineken",            campaign: "Worlds Apart",           year: 2017, mechanism: "Connection",              hue: "mint" }
+honda-cog:                 { brand: "Honda",               campaign: "Cog",                    year: 2003, mechanism: "Processing fluency",      hue: "tangerine", thumb: "hq" }
+inside-out-marketing:      { brand: "Pixar",               campaign: "Inside Out",             year: 2015, mechanism: "Emotional literacy",      hue: "sun" }
+lego-rebuild-the-world:    { brand: "Lego",                campaign: "Rebuild the World",      year: 2019, mechanism: "Flow",                    hue: "sun" }
+mcdonalds-im-lovin-it:     { brand: "McDonald's",          campaign: "I'm Lovin' It",          year: 2003, mechanism: "Mere exposure",           hue: "tangerine" }
+nike-you-cant-stop-us:     { brand: "Nike",                campaign: "You Can't Stop Us",      year: 2020, mechanism: "Collective joy",          hue: "violet" }
+old-spice-man-your-man:    { brand: "Old Spice",           campaign: "The Man Your Man Could Smell Like", year: 2010, mechanism: "Incongruity", hue: "sky" }
+pg-thank-you-mom:          { brand: "P&G",                 campaign: "Thank You, Mom",         year: 2012, mechanism: "Emotional contagion",     hue: "rose" }
+sony-bravia-balls:         { brand: "Sony BRAVIA",         campaign: "Balls",                  year: 2005, mechanism: "Awe",                     hue: "rose" }
+spotify-wrapped:           { brand: "Spotify",             campaign: "Wrapped",                year: 2016, mechanism: "Self-relevance",          hue: "mint" }
+thai-life-unsung-hero:     { brand: "Thai Life Insurance", campaign: "Unsung Hero",            year: 2014, mechanism: "Moral elevation",         hue: "rose" }
+volkswagen-fun-theory:     { brand: "Volkswagen",          campaign: "The Fun Theory",         year: 2009, mechanism: "Intrinsic motivation",    hue: "violet", thumb: "hq" }
