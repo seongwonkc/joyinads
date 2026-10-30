@@ -14,33 +14,33 @@ Budweiser's 2014 Super Bowl ad contained no party scenes, no sweating glass in s
 
 Nobody thought about beer.
 
-The ad was watched over 50 million times in its first week. It was voted the most popular Super Bowl commercial of 2014. And it contained almost no product messaging. This raises a reasonable question: how does a beer brand win the Super Bowl with a puppy and a horse?
+Over 50 million views in the first week. Voted the most popular Super Bowl commercial of 2014. Product messaging: essentially none. So how does a beer brand win the biggest advertising night of the year with a puppy and a horse?
 
 ## The Psych
 
-Start with the puppy. Konrad Lorenz identified what he called *Kindchenschema* — the "baby schema": large eyes, round face, small nose, soft body. These features trigger an automatic caregiving response. We don't decide to find them appealing; it just happens. Evolution built it in because caring for small vulnerable creatures — our own offspring included — was adaptive.
+Start with the puppy. Konrad Lorenz described *Kindchenschema* — the "baby schema": big eyes, round face, small nose, soft body. Those features trigger a caregiving response automatically. You don't decide to find them appealing. It happens to you. Evolution wired it in because looking after small helpless creatures, our own offspring very much included, kept the species going.
 
-The puppy in "Puppy Love" is a Kindchenschema delivery system. So is its size next to the horse, its helplessness, its uncomplicated affection. The viewer's brain fires a caregiving response within seconds, and that response carries an emotional package: warmth, protectiveness, pleasure.
+The puppy in "Puppy Love" is a Kindchenschema delivery system. So is its size next to the horse, its helplessness, its complete lack of emotional complexity. Within seconds your brain has fired, and the response arrives as a bundle: warmth, protectiveness, pleasure.
 
-Then the affect heuristic takes over. Paul Slovic's research established that our emotional state at any given moment bleeds into unrelated judgments we make at that same moment. When you feel warmth, you evaluate nearby things more positively — including the brand logo that appears at the end of the clip. The association forms not through argument or information, but through emotional adjacency. Budweiser didn't convince you of anything. It was just present while you felt good.
+Then the affect heuristic steps in and does something sneakier. Paul Slovic's research showed that whatever you're feeling right now leaks into unrelated judgments you happen to make right now. Feel warm, and everything nearby gets graded generously — including the logo at the end of the clip. No argument, no information, just emotional adjacency. Budweiser never convinced you of anything. It was simply standing there while you felt good.
 
-The narrative structure deepens this. The puppy is separated from his friend; the Clydesdales block the car; the puppy returns home. It's a complete emotional arc — threat, struggle, resolution — and the resolution produces relief and happiness in combination. That combination is what creates strong emotional memory. The joyful ending isn't just pleasant; it's the release of tension that's been building. Memories encoded at moments of emotional release tend to stick.
+The story structure deepens the effect. Puppy gets separated from his friend; the Clydesdales block the car; puppy comes home. Threat, struggle, resolution — a complete emotional arc, and the resolution delivers relief and happiness together. That pairing is what builds strong emotional memory. The happy ending isn't merely nice; it's the release of tension you've been holding. Memories laid down at the moment of release are the ones that stay.
 
 ## Why Budweiser Did This
 
-Beer, as a category, is almost impossible to differentiate on taste at the mainstream level. The flavor differences between major lagers are minimal, and price promotions erode loyalty constantly. The only durable differentiation is identity — what the brand *means*, and how it makes you feel when you see it.
+Mainstream beer is nearly impossible to differentiate on taste. The flavor gaps between major lagers are small, and price promotions chew through loyalty every quarter. What's left is identity — what the brand *means*, and how you feel when the label catches your eye.
 
-Budweiser had been associating itself with the Clydesdales since 1933, and with American warmth and nostalgia for longer than that. "Puppy Love" wasn't a new direction; it was a concentrated dose of the existing brand identity, delivered at maximum scale during the most-watched television event of the year.
+Budweiser has been running with the Clydesdales since 1933, and trading on American warmth and nostalgia for longer than that. "Puppy Love" wasn't a pivot. It was a concentrated dose of the identity they already had, injected during the most-watched television event of the year.
 
-The Clydesdales were already doing the work of brand recall. The puppy was there to sharpen the emotional charge. Together they produced something that could legitimately trend globally — shareable not as advertising, but as content people wanted to pass to other people because it made them feel something.
+The Clydesdales handled brand recall. The puppy sharpened the emotional charge. Together they made something that could genuinely trend worldwide — shared not as advertising but as a thing you send to your sister because it made you feel something.
 
-There's a useful caveat here. Cute appeal works best when the brand already has enough equity to absorb the association. For a new or unknown brand, a puppy with no product message is just a puppy. Budweiser could run this ad because the Clydesdales had built decades of brand recognition first. The emotional heuristic works on top of existing familiarity — it doesn't replace it.
+One caveat, and it's a big one. Cute works best when the brand has enough equity to absorb the association. For an unknown brand, a puppy with no product message is just a puppy on the internet. Budweiser got away with this because the Clydesdales had already banked decades of recognition. The affect heuristic builds on familiarity. It can't manufacture it from scratch.
 
 ## The Takeaway
 
-We evaluate brands on quality and value, or at least we believe we do. The affect heuristic makes this harder to verify. Emotional residue from unrelated content bleeds into brand perception constantly, and cute is one of the fastest and most reliable triggers for positive affect available to an advertiser.
+We evaluate brands on quality and value — or so we tell ourselves. The affect heuristic makes that claim hard to verify. Emotional residue from unrelated content seeps into brand perception all day long, and cute is about the fastest, most reliable trigger for positive affect anyone has found.
 
-The "Puppy Love" lesson isn't "put animals in your ads." It's that emotional conditioning happens below the threshold of conscious attention, and brands that understand this can build warmth faster and more durably than any amount of product messaging. You liked the puppy. Somewhere in your brain, you like Budweiser a little more than you did before. They never needed to tell you why.
+The lesson isn't "put animals in your ads." It's that emotional conditioning runs underneath conscious attention, and brands that understand this can build warmth faster than any amount of product messaging. You liked the puppy. Somewhere in your head, you now like Budweiser slightly more than you did an hour ago. They never had to tell you why.
 
 ## References
 

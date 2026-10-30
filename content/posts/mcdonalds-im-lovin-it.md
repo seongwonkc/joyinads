@@ -14,19 +14,19 @@ Ba da ba ba baaaa.
 
 You didn't have to think. You just knew. The sound was in your head before you finished reading it.
 
-That's not a coincidence. That's twenty-plus years of psychological conditioning, executed at a scale that makes most brand work look casual. McDonald's "I'm Lovin' It" launched in 2003 with Justin Timberlake on the hook — which helped — but the five-note mnemonic that followed became something no pop song ever does: a sonic reflex. Involuntary. Cross-cultural. Essentially permanent.
+That's not a coincidence. That's twenty-plus years of psychological conditioning, executed at a scale that makes most brand work look like a weekend project. McDonald's "I'm Lovin' It" launched in 2003 with Justin Timberlake on the hook — which definitely helped — but the five-note mnemonic became something even a hit pop song rarely manages: a sonic reflex. Involuntary. Cross-cultural. Basically welded into memory.
 
 Understanding why it works requires looking at two mechanisms that are, individually, well-documented, and together, unusually powerful.
 
 ## Mere Exposure and Musical Priming
 
-Robert Zajonc's 1968 research on the mere exposure effect established something that still surprises people: simply encountering a stimulus repeatedly, with no other information, causes people to like it more. Not love it. Not consciously appreciate it. Just develop a baseline positive response, automatically, through familiarity alone.
+Robert Zajonc's 1968 research on the mere exposure effect established something both simple and slightly annoying: merely encountering a stimulus again and again can make us like it more. Not love it. Not consciously admire it. Just warm to it because it has become familiar.
 
 The five-note McDonald's mnemonic has appeared in every ad, in every market, for over two decades. The exposure count across global media is impossible to calculate precisely, but conservative estimates put it in the hundreds of billions. The result is that the sound now carries its own emotional charge, independent of any conscious evaluation of McDonald's as a brand. Hear it, feel a small flicker of warmth. Not because of the food. Because of the exposure.
 
 Musical priming works differently. Music activates emotional memory. The brain doesn't process sound neutrally — it processes it relationally, pulling in the emotional texture of previous experiences with that sound. The "I'm Lovin' It" mnemonic has reached most people during moments of mild convenience or quiet pleasure: a quick lunch, a road trip stop, a childhood treat. Each of those associations gets folded into the sound. The jingle becomes a retrieval cue for accumulated positive affect.
 
-Neither mechanism requires attention. Neither requires preference. They operate below the threshold of conscious engagement, which is exactly what makes them durable. You can't opt out of mere exposure by deciding not to like McDonald's. The conditioning continues regardless.
+Neither mechanism asks for much attention. Neither waits for permission. That is exactly what makes them durable. You cannot opt out of mere exposure by deciding you are too sophisticated for McDonald's. The five notes have already arrived.
 
 ## Why Five Notes
 
@@ -48,7 +48,7 @@ It's smaller than all of those. A reflex rather than an emotion. A conditioned p
 
 That's not a limitation. For a brand operating at McDonald's scale, with thousands of daily touchpoints across 100-plus countries, a small positive response that fires reliably every single time is enormously valuable. The aggregate over a lifetime of exposure is not small. It's the emotional equivalent of compound interest.
 
-The lesson isn't "jingles work." It's that consistency, simplicity, and ubiquity can manufacture joy at a level of scale that no single campaign, however brilliant, can match. Small joy, repeated infinitely, becomes the texture of a brand. You stop noticing it — and then it becomes impossible to remove.
+So yes, jingles work. But that is the boring version of the lesson. The better one is that consistency, simplicity, and ubiquity can build positive feeling at a scale no single brilliant commercial can match. Small joy, repeated almost forever, becomes the texture of a brand. You stop noticing it — which is exactly when it becomes impossible to remove.
 
 ## References
 

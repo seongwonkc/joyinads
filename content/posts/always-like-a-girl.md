@@ -14,35 +14,35 @@ Ask a ten-year-old girl to run "like a girl." Watch what happens. Arms pumping. 
 
 Now ask a grown woman to do the same thing.
 
-The difference is uncomfortable to watch. Somewhere between childhood and adulthood, the phrase had been absorbed as an insult — and the body had learned to perform the insult back. Always set up exactly this experiment on camera in 2014, and the results became one of the most watched ads of the decade.
+The difference is uncomfortable to watch. Somewhere between ten and twenty-five, the phrase got absorbed as an insult — and the body learned to perform the insult back. Always ran exactly this experiment on camera in 2014, and the footage became one of the most watched ads of the decade.
 
-What the campaign understood — and most advertising doesn't — is that the strongest form of joy in advertising isn't the joy of being entertained. It's the joy of recognizing something true about yourself that you had been talked out of believing.
+Here's what the campaign understood and most advertising doesn't: the strongest joy an ad can produce isn't the joy of being entertained. It's the joy of recognizing something true about yourself that you'd been talked out of believing.
 
 ## The Psychology
 
-Cognitive reframing is a technique from CBT. It doesn't change the facts. It changes the frame the facts sit inside — and a different frame produces a different emotional response.
+Cognitive reframing comes from CBT. It doesn't change the facts. It changes the frame the facts sit in — and a new frame produces a new feeling.
 
-"Like a girl" as an insult and "like a girl" as a descriptor of full physical commitment are the same three words. What Always did was make the viewer hold both meanings simultaneously until one collapsed. They didn't argue. They just showed girls running.
+"Like a girl" as an insult and "like a girl" as a description of total physical commitment are the same three words. Always made viewers hold both meanings at once until one of them collapsed. No argument. Just girls running.
 
-The joy that followed wasn't the quick pleasure of a good punch line. It was something closer to what Claude Steele called self-affirmation: the specific emotional relief of having a positive aspect of your identity confirmed, especially one you'd been quietly undermining. For women watching, the reframe activated something that had been sitting dormant — a version of themselves that hadn't yet learned to apologize for being physical.
+The joy that followed wasn't the quick pop of a good punch line. It's closer to what Claude Steele called self-affirmation: the specific relief of having a good part of your identity confirmed, especially a part you'd quietly been undercutting yourself. For women watching, the reframe woke something dormant — a version of themselves that hadn't yet learned to apologize for taking up space.
 
-There's also a reactance component worth noting. When we revise a belief on our own terms — when we *conclude* something rather than being *told* it — we feel ownership over the conclusion. The ad was careful never to say "girls are strong." It showed girls being strong and let viewers arrive there themselves. That distinction is why the emotional effect lasted. People trust what they discover; they resist what they're sold.
+There's a reactance angle too. When we revise a belief on our own terms — when we *conclude* something instead of being *told* it — we take ownership of the conclusion. Notice that the ad never once says "girls are strong." It shows girls being strong and lets you get there yourself. That gap is why the feeling stuck. People trust what they discover and resist what they're sold.
 
 ## Why It Worked
 
-Always built the discomfort before the resolution. The awkward, apologetic performances of grown women running "like a girl" ran long enough to be genuinely unsettling. Then the young girls arrived — no self-consciousness, no performance, just movement — and the contrast was sharp enough to feel like a correction happening inside your chest.
+Always built the discomfort before the relief. Those awkward, apologetic performances by grown women run long — long enough to get genuinely unsettling. Then the young girls arrive. No self-consciousness, no performance, just movement. The contrast is sharp enough to feel like a correction happening somewhere behind your ribs.
 
-Most brands skip the wound and go straight to the balm. Always stayed in the wound long enough for it to mean something.
+Most brands skip the wound and go straight to the bandage. Always sat in the wound until it meant something.
 
-The product was barely present. That was the point. Always wasn't selling pads by listing features. They were aligning the brand with a value — the belief that being a girl is not a limitation — and trusting that alignment to do more commercial work than any product claim could. This is value-expressive positioning: the consumer doesn't buy the product; they affiliate with what the brand reflects back at them.
+The product is barely in the thing, which is the point. Always wasn't selling pads by listing features; they were tying the brand to a value — being a girl is not a limitation — and betting that the alignment would outperform any product claim. Marketers call this value-expressive positioning. You don't buy the product. You affiliate with what the brand reflects back at you.
 
-The campaign generated $4 million in earned media in the first three months. It also produced something more durable than a sales spike: an association between Always and a specific kind of pride that no competitor had claimed.
+The campaign generated $4 million in earned media in three months. It also produced something a sales spike can't: a permanent link between Always and a particular kind of pride that no competitor had bothered to claim.
 
 ## The Takeaway
 
-Reframing is more powerful than reassurance. Telling someone they're capable produces a small emotional response. Showing them something true about themselves that they'd been trained not to see produces something that lingers.
+Reframing beats reassurance. Tell someone they're capable and you get a small, polite flicker of feeling. Show them something true about themselves they'd been trained not to see, and it lingers for years.
 
-When a brand helps you reclaim a version of yourself you'd been quietly minimizing, you don't just remember the ad. You remember how it made you feel about yourself — and that's a loyalty no competitor can easily replicate, because they'd have to offer the same reframe, and it's already been claimed.
+When a brand helps you reclaim a version of yourself you'd been quietly shrinking, you don't just remember the ad. You remember how it made you feel about yourself. That is hard to compete with: a rival would have to offer the same reframe, and the reframe is already spoken for.
 
 ## References
 
