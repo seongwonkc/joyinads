@@ -35,6 +35,17 @@
   </div>
 </section>
 
+{{- with site.Data.intro }}
+<section class="hello wrap" aria-labelledby="hello-title">
+  <aside class="sticky">
+    <span class="tape" aria-hidden="true"></span>
+    <h2 id="hello-title" class="sticky-label">{{ .label }}</h2>
+    <div class="sticky-body">{{ .body | markdownify }}</div>
+    {{ with .signature }}<p class="sticky-sig"><span aria-hidden="true">— </span>{{ . }}</p>{{ end }}
+  </aside>
+</section>
+{{- end }}
+
 {{- with index $posts 0 }}
 {{- $d := partial "post-data.html" . }}
 <section class="feature wrap hue-{{ $d.hue }}" aria-labelledby="feature-title">

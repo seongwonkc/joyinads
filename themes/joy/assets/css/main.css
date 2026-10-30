@@ -243,6 +243,16 @@ p { margin: 0; text-wrap: pretty; }
 .thumb-type span { font-family: var(--f-display); font-style: italic; font-weight: 600; font-size: clamp(1.6rem, 1rem + 2vw, 2.6rem); line-height: 1; text-align: center; letter-spacing: -0.02em; font-variation-settings: "SOFT" 100, "WONK" 1; }
 
 /* ---------- Feature ---------- */
+/* Sticky note from the writer. Stays paper-yellow in dark mode, like the snaps stay white. */
+.hello { padding-top: clamp(2.75rem, 2rem + 3vw, 4.5rem); }
+.sticky { --note: #fde58a; --note-ink: #2b2318; position: relative; max-width: 38rem; margin-inline: auto; padding: 2.4rem clamp(1.4rem, 1rem + 2vw, 2.4rem) 1.6rem; background: linear-gradient(180deg, #fff1a8 0%, var(--note) 38%, #f9da6c 100%); color: var(--note-ink); border-radius: 3px 3px 3px 22px / 3px 3px 3px 10px; box-shadow: 0 1px 1px rgba(60, 40, 0, 0.08), 0 18px 30px -16px rgba(80, 55, 0, 0.45), 0 30px 50px -40px rgba(80, 55, 0, 0.5); transform: rotate(-1.2deg); }
+.tape { position: absolute; top: -0.85rem; left: 50%; width: 7.5rem; height: 1.7rem; transform: translateX(-50%) rotate(2.5deg); background: rgba(255, 253, 245, 0.62); border-left: 1px dashed rgba(120, 100, 60, 0.18); border-right: 1px dashed rgba(120, 100, 60, 0.18); box-shadow: 0 1px 2px rgba(60, 40, 0, 0.08); backdrop-filter: blur(1px); }
+.sticky-label { margin: 0 0 0.9rem; font-family: var(--f-ui); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8a5a10; }
+.sticky-body p { margin: 0 0 0.85em; font-family: var(--f-text); font-size: clamp(1.08rem, 1rem + 0.35vw, 1.22rem); line-height: 1.6; }
+.sticky-sig { margin: 0.4rem 0 0; text-align: right; font-family: "Caveat", "Segoe Print", "Bradley Hand", cursive; font-size: 2.1rem; font-weight: 600; line-height: 1; color: #b23c16; transform: rotate(-3deg); }
+.hello + .feature { padding-top: clamp(2.5rem, 2rem + 2.5vw, 4rem); }
+@media (max-width: 34rem) { .sticky { transform: rotate(-0.6deg); } }
+
 .feature { display: grid; grid-template-columns: 1fr; gap: 1.75rem; padding-block: clamp(3rem, 2rem + 4vw, 5.5rem); }
 .feature-media { border-radius: var(--radius-lg); box-shadow: var(--shadow); }
 .feature-media:hover img { transform: scale(1.03); }
