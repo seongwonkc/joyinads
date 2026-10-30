@@ -2,9 +2,9 @@
 # brand · campaign · year the campaign launched · the mechanism the essay is about · card color
 # thumb: "hq" marks videos whose YouTube thumbnail has no HD version.
 airbnb-belong-anywhere:    { brand: "Airbnb",              campaign: "Belong Anywhere",        year: 2014, mechanism: "Belonging",               hue: "sky" }
-always-like-a-girl:        { brand: "Always",              campaign: "#LikeAGirl",             year: 2014, mechanism: "Reframing",               hue: "rose" }
+always-like-a-girl:        { brand: "Always",              campaign: "#LikeAGirl",             year: 2014, mechanism: "Reframing",               hue: "rose", thumb: "hq" }
 apple-shot-on-iphone:      { brand: "Apple",               campaign: "Shot on iPhone",         year: 2015, mechanism: "Participation",           hue: "violet" }
-budweiser-puppy-love:      { brand: "Budweiser",           campaign: "Puppy Love",             year: 2014, mechanism: "Affect heuristic",        hue: "tangerine" }
+budweiser-puppy-love:      { brand: "Budweiser",           campaign: "Puppy Love",             year: 2014, mechanism: "Affect heuristic",        hue: "tangerine", thumb: "hq" }
 cadbury-gorilla:           { brand: "Cadbury",             campaign: "Gorilla",                year: 2007, mechanism: "Absurdity",               hue: "violet", thumb: "hq" }
 coca-cola-open-happiness:  { brand: "Coca-Cola",           campaign: "Open Happiness",         year: 2009, mechanism: "Conditioning",            hue: "tangerine" }
 dove-real-beauty-sketches: { brand: "Dove",                campaign: "Real Beauty Sketches",   year: 2013, mechanism: "Self-concept",            hue: "sky" }

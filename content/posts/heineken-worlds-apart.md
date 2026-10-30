@@ -10,7 +10,7 @@ draft: false
 
 Two people meet. They don't know each other. They're given a brief introduction, then asked to assemble flat-pack furniture together — the kind of low-stakes collaborative task that's slightly annoying and requires enough communication to produce familiarity.
 
-{{< youtube 8wYXw4K0A3g >}}
+{{< youtube z3a8MdloAAM >}}
 
 By the time they've finished, they've negotiated, laughed a little, figured each other out. They like each other.
 

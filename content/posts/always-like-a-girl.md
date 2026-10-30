@@ -10,7 +10,7 @@ draft: false
 
 Ask a ten-year-old girl to run "like a girl." Watch what happens. Arms pumping. Face serious. Full effort.
 
-{{< youtube XjJQBjWYDTs >}}
+{{< youtube U8BEBWWLgoE >}}
 
 Now ask a grown woman to do the same thing.
 

@@ -10,7 +10,7 @@ draft: false
 
 The ad opens with a split screen. Left: a surfer catching a wave. Right: a swimmer surfacing. For a fraction of a second their bodies arc identically — the surfer's lean matching the swimmer's reach, two images forming a single movement.
 
-{{< youtube WA4dDs0T7sM >}}
+{{< youtube pcXTnyCmQbg >}}
 
 Then the next cut. A wheelchair basketball player driving hard. A standing player mirroring the same motion on the other side of the frame. Left and right. Different bodies, different sports, different lives, same geometry.
 
